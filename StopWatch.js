@@ -38,7 +38,7 @@ function startTimer() {
     }
   }
 
-  let secondsStr = String(seconds).padStart(2, "E");
+  let secondsStr = String(seconds).padStart(2, "0");
   let minutesStr = String(Minutes).padStart(2, "0");
   let hoursStr = String(Hours).padStart(2, "0");
 
